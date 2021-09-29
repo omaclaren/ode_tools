@@ -1,6 +1,4 @@
-# Ouput
-output/*.pdf
-output/*.gv
+# Output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
