@@ -1,0 +1,14 @@
+digraph SIR_example_usage {
+	S [shape=circle]
+	J_inf [shape=box]
+	S -> J_inf
+	I [shape=circle]
+	J_inf [shape=box]
+	J_inf -> I
+	I [shape=circle]
+	J_rec [shape=box]
+	I -> J_rec
+	R [shape=circle]
+	J_rec [shape=box]
+	J_rec -> R
+}
