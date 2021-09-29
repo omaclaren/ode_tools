@@ -47,7 +47,7 @@ stoichiometry = ode_lib.parse_reaction_system(reaction_system=reaction_system,d=
 #                              [('R', 'J_rec'), 1]])
 
 # save figure
-dot = ode_lib.stoichiometry_to_dot(stoichiometry,dot_name='SIR_example_usage',save=True)
+dot = ode_lib.stoichiometry_to_dot(stoichiometry,dot_name='output/SIR_example_usage',save=True)
 
 fluxes = OrderedDict([['J_inf', lambda c, p: p['beta'] * c['S'] * c['I']],
                       ['J_rec', lambda c, p: p['gamma'] * c['I']]])

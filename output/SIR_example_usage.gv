@@ -1,4 +1,4 @@
-digraph SIR_example_usage {
+digraph "output/SIR_example_usage" {
 	S [shape=circle]
 	J_inf [shape=box]
 	S -> J_inf
