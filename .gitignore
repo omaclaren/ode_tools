@@ -1,5 +1,6 @@
 # Ouput
 output/*.pdf
+output/*.gv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
